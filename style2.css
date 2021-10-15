@@ -1,0 +1,150 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #342d5f;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #d8d8d8;
+  font-size: 4rem;
+  margin-top: 60px;
+  background: linear-gradient(
+    to right,
+    #342d5f,
+    #352d6d,
+    #352d7d,
+    #352d6d,
+    #342d5f
+  );
+}
+
+.task {
+  width: 60vw;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 13px;
+  background: rgba(27, 228, 196, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* ------------ */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.task p {
+  font-size: 20px;
+}
+
+/* -------Icons Style ----------- */
+.icon {
+  font-size: 24px;
+}
+
+.icon:hover {
+  font-size: 26px;
+  transition: 0.5ms ease-in-out;
+  cursor: pointer;
+}
+/* .icon-star-empty {
+  font-size: 30px;
+} */
+.icon-bin {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.icon-bin:hover {
+  font-size: 28px;
+  opacity: 1;
+  color: #cf2c2c;
+  transition: 0.3s;
+}
+
+.icon-angry {
+  color: #beaf1f;
+}
+
+.icon-heart {
+  color: #c02424;
+}
+
+.icon-heart:hover {
+  color: #da1414;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+
+/* ------------------------ */
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  padding: 7px 18px;
+  width: 35vw;
+  border-radius: 8px;
+  outline: none;
+  font-size: 22px;
+}
+
+button {
+  all: unset;
+}
+
+form .icon-plus {
+  color: #afafaf;
+  cursor: pointer;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+form .icon-plus:hover {
+  color: #d61e1e;
+  cursor: pointer;
+  font-size: 23px;
+  margin-left: 11px;
+  transition: 0.3s;
+}
+.sign1 {
+  position: absolute;
+  left:0;
+  top: 0px;
+  font-family: 'Meie Script', cursive;
+  font-size: 24px;
+  color: #d8fc0e;
+}
+.sign1 a {
+  text-decoration: none;
+  color:#ffbb01;
+   font-family: 'Meie Script', cursive;
+}
+
+/* --------------JS-------------- */
+.dn {
+  display: none;
+}
+
+.finish {
+  text-decoration: line-through;
+}
+.Green {
+color: #99ff00
+}
